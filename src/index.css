@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+
+  width: 100%;
+
+  background-color: #f4b400;
+  padding: 5px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 50px; 
+
+}
+.logo {
+  height: 8vh;
+  margin-left: 20px;
+}
+
+.appname {
+  text-transform: capitalize;
+  color: white;
+  padding: 8px;
+}
+
+/* footer {
+    position: relative;
+     padding:5px;  
+     top:85vh
+ } */
+
+/* .copyright {
+    text-align: center;
+} */
+
+.mainnote {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 50px;
+}
+
+.inputfield {
+  padding: 10px;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.texty {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  outline: 0;
+  border: 0;
+  resize: none;
+}
+
+.btnbox {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.addbtn {
+  border-radius: 50%;
+  color: #f4b400;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  margin: 0px 10px 10px 0px;
+}
+
+.addbtn:hover {
+  transform: scale(1.3);
+  background-color: #f4b400;
+  color: white;
+}
+
+.notecontainer {
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.note {
+  width: 20%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 20px;
+  display: inline-block;
+}
+
+.notehead {
+  padding: 10px;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.notepara {
+  padding: 10px;
+}
+
+.notebtn {
+  color: #f4b400;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+  border: none;
+  margin: 10px;
+}
+
+.notebtn:hover {
+  transform: scale(1.3);
+  background-color: #f4b400;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mainnote {
+    width: 70%;
+  }
+
+  .note {
+    width: 40%;
+    margin: 5px;
+  }
+  .notecontainer {
+    margin-bottom: 50px;
+  }
+}
